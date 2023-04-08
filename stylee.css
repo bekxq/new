@@ -63,14 +63,18 @@ section.home{
     width: 100%;
     height: 800px;
     position: relative;
+    display: flex;
+    border: 0px;
 }
-section.home__gallery{
-    float: right;
-    top: 200px;
-    margin: auto;
+section.home__gallery img{
+    width: 300px;
+    height: 300px;
+    margin: 0;
 }
-section.about__title{
 
+.home__content{
+    display: flex;
+    align-items: center;
 }
 background-image: url(https://moewalls.com/wp-content/uploads/2023/03/akeha-samurai-assassin-monochrome-nier-reincarnation-thumb.jpg);
 
